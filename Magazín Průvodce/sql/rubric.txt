@@ -1,0 +1,20 @@
+1	303	1	Spoleènost	Donna dala Davidovi. Máma má maso. Ramajama ne. Ola je vegetarián.	spolecnost	1999-02-28 22:50:37	admin	public
+2	303	1	Politika	koncentrovaný výraz ekonomiky, jak øekl ji¾ V.I.Lenin :-)	politika	1999-03-01 02:08:29	admin	public
+3	303	1	Kultura	Kulturni udalosti, recenze, upozorneni...	kultura	1999-03-03 00:19:28	admin	public
+4	303	1	Cestovani	Cestopisy, rady na cesty...	cestovani	1999-03-03 00:24:04	admin	public
+5	303	1	Tvorba	Povídky, básnì a další umìlecká díla.	tvorba	1999-03-06 15:45:20	admin	public
+6	121	1	Hudba	Hudba	hudba	1999-03-08 01:54:49	admin	public
+7	3	1	Zajímavosti	Hlavnì zajímavé odkazy...	zajimavosti	1999-03-10 17:43:38	write	hidden
+8	3	1	KdyKam	kulturni i mene kulturni typy kam vypadnout	kdykam	1999-03-11 10:48:15	admin	public
+9	303	1	Média	Televize, noviny, èasopisy.	media	1999-03-12 14:49:40	admin	public
+10	303	1	Film	Filmové recenze, autorské profily a dal¹í èlánky ve spolupráci s filmovým èasopisem Kinofil.	film	1999-03-13 11:58:11	admin	public
+11	303	1	Knihy	Co se dìje ve svìtì literatury??	knihy	1999-03-13 12:00:36	admin	public
+12	303	1	Divadlo	Recenze a dal¹í zajímavosti.	divadlo	1999-03-13 12:02:16	admin	public
+13	303	1	Výtvarné umìní	Umìlecké exhibice, fotografie, významné události.	vytvarne_umeni	1999-03-13 12:04:20	admin	public
+14	303	1	Internet	Zprávy z internetu...	internet	1999-03-13 23:03:43	admin	public
+15	3	1	test	test	test	1999-03-15 17:15:10	admin	hidden
+16	3	1	uvodniky	bude se generovat do obdelnicku v pravym sloupci	uvodem	1999-03-20 04:49:29	admin	hidden
+17	3	1	komiks	do perexu vkladejte obrazky o <B>maximalni sirce 138 pixlu</B>	komiks	1999-03-23 13:04:56	edit	hidden
+18	303	1	ekonomika	Stesti je krasna vec, ale prachy za nej nekoupis.	ekonomika	1999-04-02 23:22:10	admin	public
+19	303	1	Encyklopedie pohostinství	piju, pijes, pije	hospoda	1999-04-11 16:21:55	admin	public
+20	303	1	Skandální Odhalení	Kachny... Kachny...	skandalni_odhaleni	1999-10-14 19:18:31	admin	public
