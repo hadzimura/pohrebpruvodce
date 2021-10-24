@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+    <head>
+
+        <meta https-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+        <title>{Title} {block:PostTitle} {PostTitle} {/block:PostTitle}</title>
+
+        <link rel="shortcut icon" href="{Favicon}">
+        <link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+        <meta name="viewport"  content="width=660"/>
+        <link rel="apple-touch-icon" href="{PortraitURL-128}"></link>
+		<link rel="stylesheet" href="https://static.tumblr.com/anfpypi/BcYo3w7st/feather.css" />
+
+		<!-- DEFAULT COLORS -->
+        <meta name="color:Background" content="#fff"/>
+		<meta name="color:Text" content="#919191"/>
+		<meta name="color:Links" content="#6DC0A9"/>
+		<meta name="color:Links Hover" content="#4A8D75"/>
+		<meta name="color:Heading" content="#000"/>
+		<meta name="color:Heading Hover" content="#000"/>
+		<meta name="color:Description" content="#919191"/>
+		<meta name="color:Permalink" content="#3F3F3F"/>
+		<meta name="color:Permalink Hover" content="#000000"/>
+		<meta name="color:Text Alt" content="#919191"/>
+
+
+		<style type="text/css" media="screen">
+
+			{CustomCSS}
+
+			html {
+				font-size: 16px; }
+
+			body {
+				font-family: Georgia, "Times New Roman", Times, serif;
+				font-size: 16px;
+				line-height: 1.8em;
+				color: {color:Text};
+				background: {color:Background};
+				padding: 60px 60px 10px 100px;
+				width: 999px; }
+
+			#footer .attribution a, #footer .attribution a:link, #footer .attribution a:visited, #header #description a, #header #description a:link, #header #description a:visited, a { color: {color:Links}; }
+			a:hover { color: {color:Links Hover}; }
+			#header h1 a { color: {color:Heading}; }
+			#header h1 a:hover { color: {color:Heading Hover}; }
+			#description { color: {color:Description}; }
+			.permalink a { color: {color:Permalink}; }
+			.permalink a:hover { color: {color:Permalink Hover}; }
+			#footer, .quote p, .photo p, .video p, .audio p, #content .conversation, .text blockquote { color: {color:Text Alt}; }
+
+			#header { margin: 0 0 10px 0; }
+
+			.text { width: 700px; }
+			.post { width: 700px; }
+			h1 { font-size: 32px; padding-bottom: 10px;}
+			#footer: {float: left; font-size: 10px;}
+		</style>
+
+    </head>
+
+    <body>
+
+<div id="header">
+	{block:Description}<i>{Description}</i>{/block:Description}<br>&nbsp;<br>
+	<p id="description">|&nbsp;&nbsp;<a href="https://www.pohrebpruvodce.cz">Pieta</a>&nbsp;&nbsp;|{block:HasPages}{block:Pages}&nbsp;&nbsp;<a href="{URL}">{Label}</a>&nbsp;&nbsp;|{/block:Pages}{/block:HasPages}
+</div>
+        <div id="content">
+            {block:Posts}
+               {block:Text}
+					{block:Title}<h1>{Title}</h1>{/block:Title}
+                    <div class="text post">
+                        {Body}
+                    </div>
+                {/block:Text}
+			{/block:Posts}
+			<!-- Footer -->
+			<div id="footer">
+			<hr>
+			<p style="font-size: 12px">Doména <a href="https://www.pohrebpruvodce.cz">https://www.pohrebpruvodce.cz</a> bude fungovat asi tak do září roku 2022.<br>
+            Následně se dají tyto stránky najít na adrese <a href="https://pohrebpruvodce.tumblr.com">https://pohrebpruvodce.tumblr.com</a>
+            </p>
+			</div>
+        </div>
+    </body>
+</html>
