@@ -10,7 +10,7 @@
 CREATE TABLE zine (
   id mediumint(8) unsigned DEFAULT '0' NOT NULL auto_increment,
   owner_id mediumint(8) unsigned DEFAULT '0' NOT NULL,
-  uri_name varchar(24) DEFAULT '' NOT NULL,
+  uri_name varchar(24) DEFAULT '',
   name varchar(24) DEFAULT '' NOT NULL,
   descr varchar(255) DEFAULT '' NOT NULL,
   created datetime DEFAULT '0000-00-00 00:00:00' NOT NULL,
