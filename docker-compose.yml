@@ -1,0 +1,8 @@
+version: "3.0"
+services:
+  pruvodce:
+    image: c0untzer0/pruvodce:latest
+    container_name: www.pruvodce.cz
+    hostname: www.pruvodce.cz
+    ports:
+     - "2001:80"
